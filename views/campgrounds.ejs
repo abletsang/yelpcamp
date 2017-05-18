@@ -7,6 +7,7 @@
 <% campgrounds.forEach(function(campground) { %>
 	<p><%= campground.name %></p>
 	<img src="<%= campground.image %>"">
+	<a href="/campgrounds/<%=campground._id%>">More Info</a>
 <% }); %>
 
 
